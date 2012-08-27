@@ -18,7 +18,9 @@
 					<!-- Sidebar content -->
 				</div>
 				<div class="span10">
+					{% if page.url != '/index.html' %}
 					<a class="btn" href="https://github.com/m1kc/benderopedia/blob/gh-pages/{{ page.title }}.md" style="float: right;"><i class="icon-pencil"></i> Перейти на github для редактирования</a>
+					{% endif %}
 					<h1>{{ page.title }}</h1>
 					{{ content }}
 				</div>
