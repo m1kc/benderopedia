@@ -40,7 +40,7 @@ window.tex2htm = {
     table.impt {padding:4px;border: solid 1px red;}\n\
     /*span.math {background-color: #F5F5F5;}*/'
   ,
-  tag: ['p','li','td','dt','dd','h3','h2'],//'div'
+  tag: ['math'],//'div'
   str4re: "(sqrt|Re|Im|ln|log|lg|int|sign|arg|sin|cos|arcsin|arccos|lim|deg"+"|max|min|var|const"+"|tg|arctg|FT|DFT|Inv|rand)",
   //|sinh|cosh|tanh|cot|coth|csc|det|dim|gcd|hom|inf|ker|liminf|limsup|Pr|sec|sup|arctan|tan
   reg4Fn: null,//Find list
