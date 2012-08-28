@@ -74,7 +74,6 @@ window.tex2htm = {
 
   Copy2Clipboard: function (sLatex) {
     if (window.clipboardData) window.clipboardData.setData("Text","$"+sLatex+"$");
-    else alert("Use IE to copy the LaTeX-expression into clipboard");
   },
 
   ConvertLaTexExp: function (data) {
