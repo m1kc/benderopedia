@@ -31,8 +31,8 @@ window.tex2htm = {
     span.msup span.msub {margin-left:0em;}\n\
     span.mvec {text-decoration:overline;}\n\
     span.mi   {font-style:italic;color:black;}\n\
-    span.mfun {color:teal;}\n\
-    span.mn   {color:gray;}\n\
+    span.mfun {color:black;}\n\
+    span.mn   {color:black;}\n\
     table.frac {margin:auto;border-spacing:0;text-align:center;}\n\
     table.frac td {padding:0;}\n\
     table.frac tr:first-child > td[rowspan="2"]+td {border-bottom: solid 1px black;}\n\
