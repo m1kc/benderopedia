@@ -26,13 +26,13 @@ window.tex2htm = {
     span.mfun {letter-spacing:0em;padding-right:0.2em;}\n\
     span.msup,\n\
     span.msub {letter-spacing:0.1em;/*?0.1*/padding-right:0.2em;font-size:0.7em;}\n\
-    span.msup {vertical-align:super;color:blue;}\n\
-    span.msub {vertical-align:sub;  color:blue;margin-left:-0.15em;}\n\
+    span.msup {vertical-align:super;color:gray;}\n\
+    span.msub {vertical-align:sub;  color:gray;margin-left:-0.15em;}\n\
     span.msup span.msub {margin-left:0em;}\n\
     span.mvec {text-decoration:overline;}\n\
-    span.mi   {font-style:italic;color:red;}\n\
+    span.mi   {font-style:italic;color:black;}\n\
     span.mfun {color:teal;}\n\
-    span.mn   {color:green;}\n\
+    span.mn   {color:gray;}\n\
     table.frac {margin:auto;border-spacing:0;text-align:center;}\n\
     table.frac td {padding:0;}\n\
     table.frac tr:first-child > td[rowspan="2"]+td {border-bottom: solid 1px black;}\n\
